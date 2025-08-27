@@ -1,0 +1,23 @@
+{
+    "name": "student-course-api",
+    "version": "1.0.0",
+    "description": "CRUD API for with Express and Mongoose",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "dependencies": {
+        "express": "^4.21.2",
+        "mongoose": "^5.13.23"
+    },
+    "keywords": [
+        "express",
+        "mongoose",
+        "api",
+        "crud"
+    ],
+    "devDependencies": {
+        "nodemon": "^3.1.10"
+    }
+}
